@@ -1,5 +1,5 @@
 {
-    "name": "pj/entry-script",
+    "name": "pawel-jakowczyk/entry-script",
     "description": "",
     "require": {
         "symfony/error-handler": "^5.2",

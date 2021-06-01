@@ -10,13 +10,13 @@ use Laminas\HttpHandlerRunner\Emitter\SapiEmitter;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\ErrorHandler\ErrorHandler;
 use PJ\Routing\RoutingMiddleware;
-use PJ\Middleware\HandlersFactoryRequestHandler;
+use PJ\Middleware\MiddlewareFactoryRequestHandler;
 
 $debug ? Debug::enable() : ErrorHandler::register();
 
 $routingMiddleware = RoutingMiddleware::create(require $configPath);
 $response = $routingMiddleware->process(
     ServerRequestFactory::fromGlobals(),
-    new HandlersFactoryRequestHandler(),
+    new MiddlewareFactoryRequestHandler(),
 );
 (new SapiEmitter())->emit($response);

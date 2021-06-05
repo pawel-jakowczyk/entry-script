@@ -5,7 +5,7 @@
         "symfony/error-handler": "^5.2",
         "laminas/laminas-diactoros": "^2.6",
         "pawel-jakowczyk/routing": "^1.0",
-        "pawel-jakowczyk/middleware": "dev-master",
+        "pawel-jakowczyk/middleware": "^0.1",
         "laminas/laminas-httphandlerrunner": "^1.4"
     }
 }

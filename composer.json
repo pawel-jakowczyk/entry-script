@@ -1,6 +1,6 @@
 {
     "name": "pawel-jakowczyk/entry-script",
-    "description": "",
+    "description": "Entry script for middleware based applications",
     "require": {
         "symfony/error-handler": "^5.2",
         "laminas/laminas-diactoros": "^2.6",

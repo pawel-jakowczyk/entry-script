@@ -1,6 +1,7 @@
 {
     "name": "pawel-jakowczyk/entry-script",
     "description": "Entry script for middleware based applications",
+    "license": "MIT",
     "require": {
         "symfony/error-handler": "^5.2",
         "laminas/laminas-diactoros": "^2.6",

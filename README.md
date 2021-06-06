@@ -2,6 +2,10 @@
 
 This repository in index.php contains the entry script for middleware based applications.
 
+## Instalation
+
+  composer require pawel-jakowczyk/entry-script
+
 ## Usage
 
 In order to set up application using this script one must set following environmental variables:

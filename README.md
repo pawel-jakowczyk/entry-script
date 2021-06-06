@@ -4,7 +4,7 @@ This repository in index.php contains the entry script for middleware based appl
 
 ## Instalation
 
-  composer require pawel-jakowczyk/entry-script
+    composer require pawel-jakowczyk/entry-script
 
 ## Usage
 
